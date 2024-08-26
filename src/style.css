@@ -1,1 +1,50 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+    background-color: green;
+}
+.card{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transform: translate(-50%, 0);
+    margin: 20px 0 0 50%;
+}
+.red{
+    color: red;
+    font-size: 100px;
+}
+.black{
+    font-size: 100px;
+}
+.top{
+    padding-left: 3%;
+    position: absolute;
+}
+.bottom{
+    bottom: 0;
+    right: 3%;
+    position: absolute;
+}
+.center{
+    font-size: 150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%
+}
+.interactive{
+    display:flex;
+    flex-direction: column;
+}
+.randomize{
+    margin: 20px 0 0 50%;
+    transform: translate(-50%, 0);
+    width: 100px;
+}
+.input{
+    width: 200px;
+    margin: 10px 0 0 50%;
+    transform: translate(-50%, 0);
+}
