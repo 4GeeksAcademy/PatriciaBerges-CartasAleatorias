@@ -43,3 +43,5 @@ height.addEventListener("change", function() {
   let card = document.querySelector(".card");
   card.style.height = height.value;
 });
+
+window.setInterval(randomCard, 10000);
