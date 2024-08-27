@@ -43,7 +43,7 @@ body{
     transform: translate(-50%, 0);
     width: 100px;
 }
-.input{
+.input, .countdown{
     width: 200px;
     margin: 10px 0 0 50%;
     transform: translate(-50%, 0);

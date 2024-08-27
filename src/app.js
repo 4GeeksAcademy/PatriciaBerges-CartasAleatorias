@@ -44,4 +44,16 @@ height.addEventListener("change", function() {
   card.style.height = height.value;
 });
 
-window.setInterval(randomCard, 10000);
+function countdown() {
+  let timer = document.querySelector(".countdown");
+  let seconds = 9;
+  setInterval(() => {
+    timer.innerHTML = `Next automatic change: ${seconds--}s`;
+    if (seconds == 0) {
+      seconds = 10;
+    }
+  }, 1000);
+}
+
+window.onload = countdown();
+window.onload = setInterval(randomCard, 10000);
